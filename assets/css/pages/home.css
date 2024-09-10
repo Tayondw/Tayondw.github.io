@@ -600,7 +600,7 @@ hr {
 }
 
 .py-120 {
-	padding-top: 120px;
+	padding-top: 95px;
 	padding-bottom: 120px;
 }
 
@@ -2056,6 +2056,10 @@ a {
 .pricing-item {
 	padding: 1.5rem;
 	gap: 2.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+
 	background-color: rgba(8, 8, 8, 0.04);
 	border-radius: 1rem;
 }
